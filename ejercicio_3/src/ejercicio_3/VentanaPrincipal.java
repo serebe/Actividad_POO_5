@@ -49,7 +49,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(211, 208, 201));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        barraUP.setBackground(new java.awt.Color(142, 57, 70));
+        barraUP.setBackground(new java.awt.Color(200, 100, 0));
         barraUP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 barraUPMouseDragged(evt);
@@ -61,7 +61,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        exit.setBackground(new java.awt.Color(142, 57, 70));
+        exit.setBackground(new java.awt.Color(200, 100, 0));
 
         lbl_exit.setFont(new java.awt.Font("Roboto Black", 1, 18)); // NOI18N
         lbl_exit.setForeground(new java.awt.Color(255, 255, 255));
@@ -97,7 +97,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         lbl_Title_cilindro.setFont(new java.awt.Font("Roboto Black", 1, 18)); // NOI18N
         lbl_Title_cilindro.setForeground(new java.awt.Color(255, 255, 255));
-        lbl_Title_cilindro.setText("Ejercicio 3");
+        lbl_Title_cilindro.setText("Ejercicio 8.3");
 
         javax.swing.GroupLayout barraUPLayout = new javax.swing.GroupLayout(barraUP);
         barraUP.setLayout(barraUPLayout);
@@ -105,8 +105,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             barraUPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(barraUPLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lbl_Title_cilindro, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 412, Short.MAX_VALUE)
+                .addComponent(lbl_Title_cilindro, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 394, Short.MAX_VALUE)
                 .addComponent(exit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         barraUPLayout.setVerticalGroup(
@@ -117,7 +117,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jPanel1.add(barraUP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 550, 30));
 
-        panel_cilindro.setBackground(new java.awt.Color(142, 57, 70));
+        panel_cilindro.setBackground(new java.awt.Color(200, 100, 0));
         panel_cilindro.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 panel_cilindroMouseEntered(evt);
@@ -155,7 +155,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jPanel1.add(panel_cilindro, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 130, 50));
 
-        panel_esfera.setBackground(new java.awt.Color(142, 57, 70));
+        panel_esfera.setBackground(new java.awt.Color(200, 100, 0));
         panel_esfera.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 panel_esferaMouseEntered(evt);
@@ -193,7 +193,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jPanel1.add(panel_esfera, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 130, 50));
 
-        panel_piramide.setBackground(new java.awt.Color(142, 57, 70));
+        panel_piramide.setBackground(new java.awt.Color(200, 100, 0));
         panel_piramide.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 panel_piramideMouseEntered(evt);
@@ -231,7 +231,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jPanel1.add(panel_piramide, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, 130, 50));
 
-        lbl_bourder.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(142, 57, 70), 3));
+        lbl_bourder.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(200, 100, 0), 3));
         jPanel1.add(lbl_bourder, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 550, 150));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

@@ -48,7 +48,7 @@ public class VentanaCilindro extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(211, 208, 201));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        barraUP.setBackground(new java.awt.Color(142, 57, 70));
+        barraUP.setBackground(new java.awt.Color(0, 102, 204));
         barraUP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 barraUPMouseDragged(evt);
@@ -60,7 +60,7 @@ public class VentanaCilindro extends javax.swing.JFrame {
             }
         });
 
-        exit.setBackground(new java.awt.Color(142, 57, 70));
+        exit.setBackground(new java.awt.Color(0, 102, 204));
 
         lbl_exit.setFont(new java.awt.Font("Roboto Black", 1, 18)); // NOI18N
         lbl_exit.setForeground(new java.awt.Color(255, 255, 255));
@@ -120,12 +120,10 @@ public class VentanaCilindro extends javax.swing.JFrame {
         jPanel1.add(barraUP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 480, 30));
 
         lbl_radio.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_radio.setForeground(new java.awt.Color(0, 0, 0));
         lbl_radio.setText("Radio (cm): ");
         jPanel1.add(lbl_radio, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 70, 30));
 
         lbl_altura.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_altura.setForeground(new java.awt.Color(0, 0, 0));
         lbl_altura.setText("Altura (cm):");
         jPanel1.add(lbl_altura, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 70, 30));
 
@@ -139,7 +137,7 @@ public class VentanaCilindro extends javax.swing.JFrame {
         txt_altura.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         jPanel1.add(txt_altura, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 140, 70, 30));
 
-        panel_calcular.setBackground(new java.awt.Color(142, 57, 70));
+        panel_calcular.setBackground(new java.awt.Color(0, 102, 204));
         panel_calcular.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 panel_calcularMouseEntered(evt);
@@ -177,31 +175,26 @@ public class VentanaCilindro extends javax.swing.JFrame {
 
         jPanel1.add(panel_calcular, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 160, 40));
 
-        img.setForeground(new java.awt.Color(0, 0, 0));
         img.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cilindro-3d.png"))); // NOI18N
         img.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.add(img, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 40, 170, 160));
 
         lbl_volumen.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_volumen.setForeground(new java.awt.Color(0, 0, 0));
         lbl_volumen.setText("Volumen (cm3):");
         jPanel1.add(lbl_volumen, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, 90, 30));
-
-        lbl_Resultvolumen.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(lbl_Resultvolumen, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 220, 70, 30));
 
         lbl_Superficie.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_Superficie.setForeground(new java.awt.Color(0, 0, 0));
         lbl_Superficie.setText("Superficie (cm3):");
         jPanel1.add(lbl_Superficie, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 260, 100, 30));
-
-        lbl_Resultsuperf.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(lbl_Resultsuperf, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, 70, 30));
         jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 240, 60, 10));
         jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 280, 60, 10));
 
-        lbl_bourder.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(142, 57, 70), 3));
+        lbl_bourder.setBackground(new java.awt.Color(0, 102, 204));
+        lbl_bourder.setForeground(new java.awt.Color(0, 102, 255));
+        lbl_bourder.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 102, 255), 3));
         jPanel1.add(lbl_bourder, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 480, 310));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

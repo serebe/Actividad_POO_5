@@ -46,7 +46,7 @@ public class VentanaPiramide extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(211, 208, 201));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        barraUP.setBackground(new java.awt.Color(142, 57, 70));
+        barraUP.setBackground(java.awt.SystemColor.activeCaption);
         barraUP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 barraUPMouseDragged(evt);
@@ -58,7 +58,7 @@ public class VentanaPiramide extends javax.swing.JFrame {
             }
         });
 
-        exit.setBackground(new java.awt.Color(142, 57, 70));
+        exit.setBackground(java.awt.SystemColor.activeCaption);
 
         lbl_exit.setFont(new java.awt.Font("Roboto Black", 1, 18)); // NOI18N
         lbl_exit.setForeground(new java.awt.Color(255, 255, 255));
@@ -118,12 +118,10 @@ public class VentanaPiramide extends javax.swing.JFrame {
         jPanel1.add(barraUP, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 480, 30));
 
         lbl_base.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_base.setForeground(new java.awt.Color(0, 0, 0));
         lbl_base.setText("base (cm): ");
         jPanel1.add(lbl_base, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 70, 30));
 
         lbl_altura.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_altura.setForeground(new java.awt.Color(0, 0, 0));
         lbl_altura.setText("Altura (cm):");
         jPanel1.add(lbl_altura, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 70, 30));
 
@@ -142,7 +140,7 @@ public class VentanaPiramide extends javax.swing.JFrame {
         txt_altura.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         jPanel1.add(txt_altura, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, 70, 30));
 
-        panel_calcular.setBackground(new java.awt.Color(142, 57, 70));
+        panel_calcular.setBackground(java.awt.SystemColor.activeCaption);
         panel_calcular.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 panel_calcularMouseEntered(evt);
@@ -180,26 +178,19 @@ public class VentanaPiramide extends javax.swing.JFrame {
 
         jPanel1.add(panel_calcular, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 160, 40));
 
-        img.setForeground(new java.awt.Color(0, 0, 0));
         img.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/piramide-3d.jpg"))); // NOI18N
         img.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.add(img, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 50, 170, 160));
 
         lbl_volumen.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_volumen.setForeground(new java.awt.Color(0, 0, 0));
         lbl_volumen.setText("Volumen (cm3):");
         jPanel1.add(lbl_volumen, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 220, 90, 30));
-
-        lbl_Resultvolumen.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(lbl_Resultvolumen, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 220, 70, 30));
 
         lbl_Superficie.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_Superficie.setForeground(new java.awt.Color(0, 0, 0));
         lbl_Superficie.setText("Superficie (cm3):");
         jPanel1.add(lbl_Superficie, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 260, 100, 30));
-
-        lbl_Resultsuperf.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(lbl_Resultsuperf, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 260, 70, 30));
 
         txt_apotema.setBackground(new java.awt.Color(211, 208, 201));
@@ -208,13 +199,12 @@ public class VentanaPiramide extends javax.swing.JFrame {
         jPanel1.add(txt_apotema, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 160, 70, 30));
 
         lbl_apotema.setFont(new java.awt.Font("Roboto Medium", 0, 12)); // NOI18N
-        lbl_apotema.setForeground(new java.awt.Color(0, 0, 0));
         lbl_apotema.setText("Apotema (cm):");
         jPanel1.add(lbl_apotema, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, 80, 30));
         jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 240, 60, 10));
         jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 280, 60, 10));
 
-        lbl_bourder.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(142, 57, 70), 3));
+        lbl_bourder.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.SystemColor.activeCaption, 3));
         jPanel1.add(lbl_bourder, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 480, 310));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

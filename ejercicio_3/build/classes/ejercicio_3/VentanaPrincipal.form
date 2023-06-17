@@ -49,7 +49,7 @@
         <Container class="javax.swing.JPanel" name="barraUP">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="46" green="39" red="8e" type="rgb"/>
+              <Color blue="0" green="64" red="c8" type="rgb"/>
             </Property>
           </Properties>
           <Events>
@@ -67,8 +67,8 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="lbl_Title_cilindro" min="-2" pref="102" max="-2" attributes="0"/>
-                      <EmptySpace pref="412" max="32767" attributes="0"/>
+                      <Component id="lbl_Title_cilindro" min="-2" pref="120" max="-2" attributes="0"/>
+                      <EmptySpace pref="394" max="32767" attributes="0"/>
                       <Component id="exit" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -84,7 +84,7 @@
             <Container class="javax.swing.JPanel" name="exit">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="46" green="39" red="8e" type="rgb"/>
+                  <Color blue="0" green="64" red="c8" type="rgb"/>
                 </Property>
               </Properties>
 
@@ -137,7 +137,7 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Ejercicio 3"/>
+                <Property name="text" type="java.lang.String" value="Ejercicio 8.3"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -145,7 +145,7 @@
         <Container class="javax.swing.JPanel" name="panel_cilindro">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="46" green="39" red="8e" type="rgb"/>
+              <Color blue="0" green="64" red="c8" type="rgb"/>
             </Property>
           </Properties>
           <Events>
@@ -196,7 +196,7 @@
         <Container class="javax.swing.JPanel" name="panel_esfera">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="46" green="39" red="8e" type="rgb"/>
+              <Color blue="0" green="64" red="c8" type="rgb"/>
             </Property>
           </Properties>
           <Events>
@@ -247,7 +247,7 @@
         <Container class="javax.swing.JPanel" name="panel_piramide">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="46" green="39" red="8e" type="rgb"/>
+              <Color blue="0" green="64" red="c8" type="rgb"/>
             </Property>
           </Properties>
           <Events>
@@ -300,7 +300,7 @@
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                 <LineBorder thickness="3">
-                  <Color PropertyName="color" blue="46" green="39" red="8e" type="rgb"/>
+                  <Color PropertyName="color" blue="0" green="64" red="c8" type="rgb"/>
                 </LineBorder>
               </Border>
             </Property>
